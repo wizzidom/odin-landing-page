@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+header{
+    margin-left: 15%;
+    margin-right: 15%;
+   
+}
+.hero{
+    background: #1F2937;
+}
+.logo img{
+    width: 100px;
+    vertical-align: bottom; 
+}
+.nav-container{
+    display: flex;
+}
+.nav-left {
+    flex: 1;
+    text-align: right;
+    padding: 15px;
+}
+.nav-left a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;    
+ 
+}

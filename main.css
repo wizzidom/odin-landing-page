@@ -86,14 +86,94 @@ header{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    background-color: white;
   
 }
 
-.random div{
+.random img{
     width: 180px;
     height: 180px;
     border: 5px solid blue;
     border-radius: 10%;
      
 
+}
+.random p{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    color: #1F2937;
+}
+.quote {
+    background-color: #E5E7EB;
+  
+    height: 410px;
+    
+}
+.texts{
+    padding-top: 100px;
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.author{
+    text-align: right;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.call {
+
+    height: 100px;
+    margin-bottom: 120px;
+}
+.call-content{
+    margin-top: 7%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3882f6; 
+}
+.call-up{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.call-down{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.sign{
+    border: 2px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 15%;
+
+   
+}
+footer{
+    height: 25px;
+    background: #1F2937;
+    padding: 20px;
+    color: white;
+    text-align: center;
 }

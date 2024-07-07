@@ -9,7 +9,7 @@ header{
 }
 .hero{
     background: #1F2937;
-    height: 88vh;
+    height: 500px;
     
 }
 .logo img{
@@ -67,4 +67,33 @@ header{
     font-weight: bolder;
     color: white;
     text-decoration: none;
+}
+/* Start of random */
+
+.random-title{
+    padding: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    color: #1F2937;
+    
+}
+.random{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  
+}
+
+.random div{
+    width: 180px;
+    height: 180px;
+    border: 5px solid blue;
+    border-radius: 10%;
+     
+
 }
